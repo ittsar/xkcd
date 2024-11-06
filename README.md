@@ -17,17 +17,9 @@ This is a Flask-based web application for viewing and managing XKCD comics. It p
 
 Install the required Python packages using `pip`:
 
-bash
-
-Copy code
-
 `pip install Flask requests flasgger Flask-Caching` 
 
 Alternatively, use the provided `install_requirements` function in `xkcd.py`:
-
-python
-
-Copy code
 
 `requirements_text = """
 Flask==3.0.3
@@ -46,10 +38,6 @@ install_requirements(requirements_text)`
 ## Usage
 
 Run the application with:
-
-bash
-
-Copy code
 
 `python xkcd.py` 
 
